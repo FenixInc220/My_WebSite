@@ -284,12 +284,12 @@ footer a {
 .footer__img-one,
 .footer__img-two{
   position: absolute;
-  margin-top: 1100px;
+  margin-top: 1300px;
   transition: .3s;
 }
 
 .footer__img-one{
-  width: 120px;
+  width: 100px;
   top: 6rem;
   right: -2rem;
 }
