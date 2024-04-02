@@ -313,3 +313,17 @@ footer a {
 #vk_share img {
   vertical-align: bottom;
 }
+
+/* Ваш остальной CSS код здесь */
+
+body {
+  padding-top: 50px; /* Отступ для верхнего меню */
+}
+
+
+.payment-page {
+  margin-bottom: 20px;
+}
+
+/* Закрывающая фигурная скобка для основного блока стилей */
+
