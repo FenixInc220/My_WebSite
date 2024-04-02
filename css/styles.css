@@ -1001,55 +1001,8 @@ button{
 .c-pointer {
 	cursor: pointer;
 }
-/* Общие стили для страницы оплаты */
+
 body {
-  font-family: 'Nunito', sans-serif;
-  margin: 0;
-  padding: 20px;
-  background-color: #131313; /* Цвет фона вашей страницы */
-  color: #fffdfd; /* Цвет текста */
-  text-align: center;
+  padding-top: 50px; /* Отступ для верхнего меню */
 }
-.payment-title {
-  font-size: 2rem;
-  margin: 3rem 0 2rem; /* Верхний отступ */
-  line-height: 1.125em;
-}
-.payment-buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 3rem; /* Нижний отступ */
-}
-.button {
-  padding: 15px 30px;
-  font-size: 18px;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  margin-bottom: 20px;
-  transition: background-color 0.3s ease;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-  width: 250px;
-  position: relative;
-}
-.button img {
-  width: 30px; /* Размер картинки */
-  margin-right: 10px; /* Отступ между картинкой и текстом */
-}
-.button.russia {
-  background-color: #f00; /* Цвет кнопки для оплаты в России */
-  color: #fff;
-}
-.button.other-countries {
-  background-color: #007bff; /* Цвет кнопки для оплаты в других странах */
-  color: #fff;
-}
-.button:hover {
-  background-color: #555;
-}
+
